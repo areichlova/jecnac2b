@@ -27,7 +27,6 @@ public class HolandskyOvcak implements AnimalInterface{
 		
 		
 		
-		
 	}
 	
 	@Override
