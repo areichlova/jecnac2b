@@ -34,7 +34,7 @@ public class HolandskyOvcak implements AnimalInterface{
 		// TODO Auto-generated method stub
 		return "Woof, woof";
 	}
-
+	
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
