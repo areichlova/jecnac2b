@@ -2,7 +2,7 @@ package zoo;
 /**
  * Trida pro vytvoreni Yaornis
  * @author snobl
- *
+ * verze 0.1
  */
 public class Yanornis implements AnimalInterface {
 	private double weight;
