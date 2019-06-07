@@ -34,7 +34,7 @@ public class Urzon implements AnimalInterface {
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return doSound();
+		return "hhh";
 	}
 
 	@Override
