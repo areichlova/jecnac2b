@@ -6,7 +6,6 @@ import zoo.AnimalInterface;
  * 
  * @version 1.0
  */
-
 public class Gronskypes implements AnimalInterface {
 private double weight;
 	@Override
