@@ -1,45 +1,41 @@
 package zoo;
-
 /**
- * Trida pro reprezentaci Urzona
  * 
- * @author LesbiOtravnejLoliTrpaslik
- * @version 1.0
+ * @author kubik
+ *
  */
-public class Urzon implements AnimalInterface {
-	private double weight;
+public class Pasovec implements AnimalInterface{
+private double weight;
 
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
-		return weight;
+		return weight ;
 	}
 
 	@Override
 	public void setWeight(double weight) {
-		if(weight < 0) {
-			throw new RuntimeException("???");
-		}
-		this.weight = weight;
-		
+		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return 450;
+		return 0;
 	}
 
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "hhh";
+		return null;
 	}
 
 	@Override
 	public String whoAmI() {
-		return "Urzon Kanadský";
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
+
