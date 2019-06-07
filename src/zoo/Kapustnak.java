@@ -38,6 +38,7 @@ public class Kapustnak implements AnimalInterface {
 	
 	@Override
 	public String whoAmI() {
+		
 		return nazev!=null?(zvire+" s jmenem:"+nazev+"."):(zvire+" beze jmena.");
 	}
 	public String getNazev() {
