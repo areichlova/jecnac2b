@@ -4,6 +4,13 @@ import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 
+/**
+ * Velmi základní tøída Aligator
+ * Pøidána metoda playSound()
+ * @author MilanBrychta
+ * @version 1.1
+ */
+
 public class Aligator implements AnimalInterface{
 	public double weight;
 	
@@ -29,7 +36,7 @@ public class Aligator implements AnimalInterface{
 	
 	public void playSound() {
 		try{
-			AudioInputStream audioInputStream =AudioSystem.getAudioInputStream(this.getClass().getResource("AligatorSound.mp3"));
+			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(this.getClass().getResource("AligatorSound.mp3"));
 		    Clip clip = AudioSystem.getClip();
 		    clip.open(audioInputStream);
 		    clip.start( );

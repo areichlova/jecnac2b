@@ -28,7 +28,7 @@ public class Kapustnak implements AnimalInterface {
 	}
 	@Override
 	public String doSound() {
-		return "skrrrrrrrrrrrrr";
+		return "Kos prdí";
 	}
 	
 	public String dieSound() {
