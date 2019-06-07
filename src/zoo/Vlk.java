@@ -1,13 +1,15 @@
 package zoo;
-/*
- * Very basic class fretka
- * version 1.0.2
-@author Havlos
-*/
-public class Fretka implements AnimalInterface{
 
-	private double weight;
-	
+
+/**
+ * Trida pro vytvoøení vlka.
+ * @author Rovný
+ * @version 1.0
+ */
+
+public class Vlk implements AnimalInterface {
+	public double weight;
+
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
@@ -16,31 +18,31 @@ public class Fretka implements AnimalInterface{
 
 	@Override
 	public void setWeight(double weight) {
-		// TODO Auto-generated method stub
-		if(weight < 0) {
-			throw new RuntimeException("???");
-		}
-		this.weight = weight;
+		  if (weight < 0) {
+		    	throw new RuntimeException("??");
+		    }
+			this.weight = weight;
 	}
-
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return 400;
+	  return 20;
 	}
 
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "ktr";
+		return "HAAAUUUUUUUUU";
 	}
-
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return "fretka";
+		return "Vlk";
 	}
-	
-	
-
+	public String Druh() {
+		return "polární";
+		/**
+		 * metoda pro urèení druhu vlka
+		 */
+	}
 }
