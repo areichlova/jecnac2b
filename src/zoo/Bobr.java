@@ -24,7 +24,6 @@ public void setWeight(double weight) {
 	this.Weigh = Weigh;
 	}
 
-
 @Override
 public double foodConsumption() {
 	// TODO Auto-generated method stub
