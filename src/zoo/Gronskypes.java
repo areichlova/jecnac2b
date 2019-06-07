@@ -3,6 +3,7 @@ import zoo.AnimalInterface;
 /**
  * Basic class about "Gronsky pes". It´s only for training purpose.
  * @author chalupsky
+ * 
  * @version 1.0
  */
 public class Gronskypes implements AnimalInterface {
