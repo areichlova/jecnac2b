@@ -22,8 +22,6 @@ public class HolandskyOvcak implements AnimalInterface{
 		this.weight = weight;
 		
 		
-		
-		
 	}
 	
 	@Override
