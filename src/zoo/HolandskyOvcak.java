@@ -11,7 +11,7 @@ public class HolandskyOvcak implements AnimalInterface{
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
-		return 0;
+		return 500;
 	}
 
 	@Override
@@ -20,9 +20,6 @@ public class HolandskyOvcak implements AnimalInterface{
 			throw new RuntimeException("????");
 		}
 		this.weight = weight;
-		
-		
-		
 		
 		
 		
