@@ -32,7 +32,7 @@ public class Emu implements AnimalInterface {
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "yeet";
+		return "Yeet";
 	}
 
 	@Override
