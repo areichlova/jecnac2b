@@ -45,5 +45,4 @@ public class Vlk implements AnimalInterface {
 		 * metoda pro urèení druhu vlka
 		 */
 	}
-
 }
