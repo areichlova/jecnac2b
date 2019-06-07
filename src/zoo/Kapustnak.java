@@ -4,7 +4,7 @@ package zoo;
  * Vetsinu Hodnot na zacatku nastavime dle prumeru.
  * Pridana vlastnost nazev a vek.
  * @author Martin Kos
- * @version 1.2
+ * @version 1.2.1
  */
 public class Kapustnak implements AnimalInterface {
 	double weight=450000;// in grams
@@ -28,10 +28,17 @@ public class Kapustnak implements AnimalInterface {
 	}
 	@Override
 	public String doSound() {
+		return "skrrrrrrrrrrrrr";
+	}
+	
+	public String dieSound() {
 		return sound;
 	}
+	
+	
 	@Override
 	public String whoAmI() {
+		
 		return nazev!=null?(zvire+" s jmenem:"+nazev+"."):(zvire+" beze jmena.");
 	}
 	public String getNazev() {

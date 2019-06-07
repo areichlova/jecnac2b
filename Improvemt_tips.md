@@ -1,3 +1,2 @@
-- [ ] Zmena Weight na Int
+- [X] Zmena Weight na Int
 - [ ] Pridani Jmena Zvirete
-Ahoj
