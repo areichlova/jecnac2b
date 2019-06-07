@@ -30,6 +30,12 @@ public class Kapustnak implements AnimalInterface {
 	public String doSound() {
 		return sound;
 	}
+	
+	public String dieSound() {
+		return sound;
+	}
+	
+	
 	@Override
 	public String whoAmI() {
 		return nazev!=null?(zvire+" s jmenem:"+nazev+"."):(zvire+" beze jmena.");
