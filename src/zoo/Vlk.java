@@ -34,7 +34,6 @@ public class Vlk implements AnimalInterface {
 		// TODO Auto-generated method stub
 		return "HAAAUUUUUUUUU";
 	}
-
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
