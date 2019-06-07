@@ -1,13 +1,13 @@
 package zoo;
-/*
- * Very basic class fretka
- * version 1.0.2
-@author Havlos
-*/
-public class Fretka implements AnimalInterface{
+/**
+ * Basic trida
+ * @author Kordac
+ * ok
+ *
+ */
 
-	private double weight;
-	
+public class Lachtan implements AnimalInterface{
+private double weight;
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
@@ -17,30 +17,25 @@ public class Fretka implements AnimalInterface{
 	@Override
 	public void setWeight(double weight) {
 		// TODO Auto-generated method stub
-		if(weight < 0) {
-			throw new RuntimeException("???");
-		}
 		this.weight = weight;
 	}
 
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return 400;
+		return 200;
 	}
 
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "ktr";
+		return "oink";
 	}
 
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return "fretka";
+		return "Lachtan voe!";
 	}
-	
-	
 
 }
