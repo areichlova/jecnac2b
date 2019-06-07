@@ -1,0 +1,2 @@
+- [X] Zmena Weight na Int
+- [ ] Pridani Jmena Zvirete

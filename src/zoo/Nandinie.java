@@ -1,22 +1,22 @@
 package zoo;
 /**
- * 
- * @author kubik
+ * Dokumentace: Nandinie
+ * @author kostera
  *
  */
-public class Pasovec implements AnimalInterface{
-private double weight;
-
+public class Nandinie implements AnimalInterface{
+private double weight; 
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
-		return weight ;
+		return weight;
 	}
 
 	@Override
 	public void setWeight(double weight) {
-		if(weight<0) {
-			throw new RuntimeException("vazi akorat");
+		// TODO Auto-generated method stub
+		if (weight<0) {
+			throw new RuntimeException("vazi malo");
 		}
 		this.weight=weight;
 	}
@@ -24,20 +24,27 @@ private double weight;
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return 60;
+		return 0;
 	}
 
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "pisk pisk  ";
+		return null;
 	}
 
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return "Pasovec";
+		return "Nandinie";
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
 }
-
