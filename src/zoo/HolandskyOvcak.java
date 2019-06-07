@@ -22,7 +22,7 @@ public class HolandskyOvcak implements AnimalInterface{
 		this.weight = weight;
 		
 	}
-
+	
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
