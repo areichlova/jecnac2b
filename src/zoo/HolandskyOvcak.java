@@ -1,46 +1,45 @@
+/**
+ * Very basic class herdershond.
+ * @author PetrJun
+ * @version 1.0
+ */
 package zoo;
-/*
- * Very basic class fretka
- * version 1.0.2
-@author Havlos
-*/
-public class Fretka implements AnimalInterface{
 
+public class HolandskyOvcak implements AnimalInterface{
 	private double weight;
 	
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
-		return weight;
+		return 500;
 	}
 
 	@Override
 	public void setWeight(double weight) {
-		// TODO Auto-generated method stub
-		if(weight < 0) {
-			throw new RuntimeException("???");
+		if(weight<0) {
+			throw new RuntimeException("????");
 		}
 		this.weight = weight;
+		
+		
 	}
-
+	
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return 400;
+		return 500;
 	}
 
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return "ktr";
+		return "Woof, woof";
 	}
-
+	
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return "fretka";
+		return "Herdershond";
 	}
-	
-	
 
 }
