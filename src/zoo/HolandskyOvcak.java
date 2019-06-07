@@ -8,7 +8,6 @@ package zoo;
 public class HolandskyOvcak implements AnimalInterface{
 	private double weight;
 	
-	
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
