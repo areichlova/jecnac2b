@@ -2,6 +2,7 @@ package zoo;
 /**
  * Basic trida
  * @author Kordac
+ * ok
  *
  */
 
