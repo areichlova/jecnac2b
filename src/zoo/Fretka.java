@@ -1,7 +1,7 @@
 package zoo;
 /*
  * Very basic class fretka
- * version 1.0.1
+ * version 1.0.2
 @author Havlos
 */
 public class Fretka implements AnimalInterface{
@@ -26,19 +26,19 @@ public class Fretka implements AnimalInterface{
 	@Override
 	public double foodConsumption() {
 		// TODO Auto-generated method stub
-		return 0;
+		return 400;
 	}
 
 	@Override
 	public String doSound() {
 		// TODO Auto-generated method stub
-		return null;
+		return "ktr";
 	}
 
 	@Override
 	public String whoAmI() {
 		// TODO Auto-generated method stub
-		return null;
+		return "fretka";
 	}
 	
 	
