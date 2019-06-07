@@ -5,7 +5,7 @@ package zoo;
  * @version 1.0
  *
  */
-public class OpiceTamarín implements AnimalInterface {
+public class OpiceTamarin implements AnimalInterface {
 
 	private double weight;
 	
@@ -19,7 +19,7 @@ public class OpiceTamarín implements AnimalInterface {
 	public void setWeight(double weight) {
 	
 	   if(weight < 0) {
-	   throw new RuntimeException("Musí nìco vážit");
+	   throw new RuntimeException("Musï¿½ nï¿½co vï¿½it");
 	}
        this.weight = weight;
 }
@@ -38,7 +38,7 @@ public class OpiceTamarín implements AnimalInterface {
 	@Override
 	public String whoAmI() {
 
-		return "Opice Tamarín";
+		return "Opice Tamarï¿½n";
 	}
 
 }

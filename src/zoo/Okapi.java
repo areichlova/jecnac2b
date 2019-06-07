@@ -28,7 +28,7 @@ public class Okapi implements AnimalInterface {
 	}
 	@Override
 	public String doSound() {
-		return "aaaaaa"
+		return "aaaaaa";
 	}
 	
 	@Override
@@ -40,7 +40,7 @@ public class Okapi implements AnimalInterface {
 		return "ziraf";
 		/**
 		* metoda pro urceni druhu Okapi
-		* /
+		*/
 	}
 
 }
