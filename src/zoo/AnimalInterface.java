@@ -1,6 +1,7 @@
 package zoo;
 /**
  * Very basic animal interface
+ * 
  * @author alik
  * @version 1.0
  */
