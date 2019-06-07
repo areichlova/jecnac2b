@@ -5,8 +5,8 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 
 /**
- * Velmi základní tøída Aligator
- * Pøidána metoda playSound()
+ * Velmi zï¿½kladnï¿½ tï¿½ï¿½da Aligator
+ * Pï¿½idï¿½na metoda playSound()
  * @author MilanBrychta
  * @version 1.1
  */
@@ -31,24 +31,30 @@ public class Aligator implements AnimalInterface{
 
 	@Override
 	public String doSound() {
-		return "call: this.playSound()";
+		this.playSound();
+        return "Playing audio..";
 	}
 	
 	public void playSound() {
-		try{
-			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(this.getClass().getResource("AligatorSound.mp3"));
-		    Clip clip = AudioSystem.getClip();
-		    clip.open(audioInputStream);
-		    clip.start( );
-		}
-		catch(Exception ex){
-			System.out.println("Visit: https://youtu.be/8sfoFq4mjfM?t=15");
-		}
+		new Thread(new Runnable() {
+            public void run() {
+                try {
+                    AudioInputStream inputStream = AudioSystem.getAudioInputStream(this.getClass().getResource("AligatorSound.wav"));
+                    Clip clip = AudioSystem.getClip();
+                    clip.open(inputStream);
+                    clip.start();
+                    Thread.sleep(clip.getMicrosecondLength());
+                } catch (Exception ex) {
+                    System.out.println("Visit: https://youtu.be/8sfoFq4mjfM?t=15");
+                }
+            }
+
+        }).start();
 	}
 
 	@Override
 	public String whoAmI() {
-		return "Jmenuje se Aligátor AAAHHHHRRRRR!";
+		return "Jmenuje se Aligï¿½tor AAAHHHHRRRRR!";
 	}
 	
 }
