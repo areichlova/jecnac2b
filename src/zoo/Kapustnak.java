@@ -2,7 +2,7 @@ package zoo;
 /**
  * Zvire kapustnak ma prumernou vahu 450 kg a dela zvuk piskotu. 
  * Vetsinu Hodnot na zacatku nastavime dle prumeru.
- * Pridana vlastnost nazev.
+ * Pridana vlastnost nazev a vek.
  * @author Martin Kos
  * @version 1.2
  */
